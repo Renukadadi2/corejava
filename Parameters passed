@@ -1,0 +1,18 @@
+//parameterized constructor
+class Student{
+int id;
+String  name;
+Student (int i , String n){
+id =i;
+name  =n;
+}
+ void Student (){
+ System.out.println(id+" " + name);
+}
+public static void main(String args[]){
+Student obj1 = new Student(21,"renu");
+Student obj2 = new Student(17,"dadi");
+obj1.Student();
+obj2.Student();
+}
+}
