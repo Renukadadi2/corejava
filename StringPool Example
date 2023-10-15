@@ -1,0 +1,12 @@
+class StringPoolExample{
+	public static void main (String args[]){
+String str1 = "python";
+String str2 = "c";
+String str3 = "java";
+String str4 = new String ("c++");
+String str5 = new String ("java").intern();
+System.out.println((str1== str2)+"Strings are not equal");
+System.out.println((str1==str3)+"Strings are not equal");
+System.out.println((str3==str5)+"Strings are equal");
+}
+}
