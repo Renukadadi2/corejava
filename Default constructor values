@@ -1,0 +1,14 @@
+//default constructor values
+class Student{
+int id;
+String  name;
+ void Student (){
+ System.out.println(id+" " + name);
+}
+public static void main(String args[]){
+Student obj1 = new Student();
+Student obj2 = new Student();
+obj1.Student();
+obj2.Student();
+}
+}
