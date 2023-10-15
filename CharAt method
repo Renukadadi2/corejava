@@ -1,0 +1,7 @@
+class StringCharAT{
+public static void main(String args[]){
+String s1  = "javafullstackcourse";
+char ch =s1.charAt(6);
+System.out.println(ch);
+}
+}
