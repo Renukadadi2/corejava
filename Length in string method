@@ -1,0 +1,7 @@
+public class Demo{
+public static void main (String args[]){
+	String str = "welcome to java language";
+	int len = str.length();
+	System.out.println("there are" +len+"characters");
+	}
+}
