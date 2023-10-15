@@ -1,0 +1,12 @@
+public class StringOps{
+public static void main (String args[]){
+String s1 ="example";
+String s2 = "example";
+String s3 = " java";
+if (s1==s3){
+System.out.println("both are same");
+}else{
+System.out.println("both are not same");
+}
+}
+}
