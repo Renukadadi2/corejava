@@ -1,0 +1,19 @@
+package javapratice;
+
+public class getterandsetter {
+private int i;
+
+public int getI() {
+	return i;
+}
+
+public void setI(int i) {
+	this.i = i*i;
+}
+
+public static void main(String args[]) {
+	getterandsetter i= new getterandsetter();
+	i.setI(10);
+	System.out.println(i.getI());
+}
+}
