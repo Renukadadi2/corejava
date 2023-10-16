@@ -1,0 +1,33 @@
+package javapratice;
+
+public class A {
+void main() {
+	System.out.println("class a");
+}
+}
+class b extends A{
+	void display() {
+		System.out.println("class b");
+	}
+}
+	class c extends A{
+		void show() {
+			System.out.println("class c");
+		}
+	}
+class d extends A{
+	void printme() {
+		System.out.println("class d");
+	}
+
+public static void main(String args[]) {
+	b obj=new b();
+	obj.main();
+	c obj1 =new c();
+	obj1.show();
+	obj1.main();
+	d obj2 = new d();
+	obj2.printme();
+	obj2.main();
+}	
+}
