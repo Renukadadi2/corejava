@@ -1,0 +1,9 @@
+package javapratice;
+
+public interface   Animal {
+public boolean doIBreath();
+public void WhatIEat();
+public  void HowIMove();
+public void WhereDoILive();
+
+}
