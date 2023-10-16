@@ -1,0 +1,39 @@
+package javapratice;
+
+ public class Mammal implements Animal{
+	
+
+		@Override
+		public boolean doIBreath() {
+			System.out.println("yes i do breath with lungs");
+			return false;
+	
+		}
+
+		@Override
+		public void WhatIEat() {
+			
+			System.out.println("ican eat veg or nonveg");
+		}
+
+		@Override
+		public void HowIMove() {
+			
+			System.out.println("by foot or crawl");
+		}
+
+		@Override
+		public void WhereDoILive() {
+		
+			System.out.println("in water or land");
+		}
+		
+public static void main(String args[]) {
+	Mammal mobj= new Mammal();
+	mobj.doIBreath();
+	mobj.WhatIEat();
+	mobj.HowIMove();
+	mobj. WhereDoILive();
+
+}
+}
