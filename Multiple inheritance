@@ -1,0 +1,16 @@
+class X { 
+void msg() { 
+System.out.println("Hello"); 
+} 	
+} 
+class Y { 
+void msg() {
+ System.out.println("Welcome");
+  } 
+}
+class Z extends X,Y { 
+public static void main(String args[]) {
+Z obj=new Z(); 
+obj.msg(); 
+}
+ } 
