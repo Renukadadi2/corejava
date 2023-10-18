@@ -1,0 +1,13 @@
+class ArrayIndexOutofBonds{
+public static void main (String args[]){
+String language[]={"c","java", "c++"};
+try {
+for(int i =0; i<=3; i++){
+System.out.println(language[i]);
+}
+}
+catch(Exception e){
+System.out.println(e);
+}
+}
+}
