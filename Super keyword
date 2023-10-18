@@ -1,0 +1,20 @@
+class Parent {
+String name ;
+public void show(){
+	name = "parent";
+System.out.println(name);
+}
+}
+class Child extends Parent{
+	String name;
+public void show(){
+	super.show();
+name ="child";
+System.out.println(name);
+}
+
+public static void main(String args[]){
+Child obj = new Child();
+obj.show();
+}
+}
