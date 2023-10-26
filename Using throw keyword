@@ -1,0 +1,19 @@
+class Program{
+public static void main (String args[]){
+	System.out.println("Start");
+int fnumber =9;
+int snumber =0;
+int result=0;
+try{
+result =fnumber/snumber;
+}catch(ArithmeticException e){
+	System.out.println(e);
+	throw e;
+	}
+	finally{
+		System.out.println("finally will be executed");
+		}
+System.out.println("output is :"+result);
+System.out.println("end");
+}
+}
