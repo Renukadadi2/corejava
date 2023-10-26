@@ -1,0 +1,11 @@
+class Program{
+public static void main (String args[]){
+int fnumber =5;
+int snumber =1;
+int result;
+result =fnumber/snumber;
+System.out.println("start");
+System.out.println("output is :"+result);
+System.out.println("end");
+}
+}
