@@ -1,0 +1,12 @@
+class Program{
+public static void main (String args[]){
+	System.out.println("Start");
+int fnumber =9;
+int snumber =0;//if we divide any number by zero/ is called arthimatic exception//
+int result;
+result =fnumber/snumber;
+//when event is stopped to execute the code is called exception//
+System.out.println("output is :"+result);
+System.out.println("end");
+}
+}
