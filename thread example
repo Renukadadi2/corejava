@@ -1,0 +1,20 @@
+package renu;
+
+public class ThreadExample extends Thread {
+		public void run() {
+			int i;
+			for(i=1;i<=10;i++) {
+				System.out.println(i);
+			}
+		}
+		public ThreadExample() {
+			System.out.println("It is a Constructor");
+		}
+		public static void main(String args[]) {
+			ThreadExample obj=new ThreadExample();
+			obj.run();
+			obj.start();
+		}
+}
+
+
