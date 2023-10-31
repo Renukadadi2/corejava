@@ -1,0 +1,17 @@
+public class Main {
+   public static void main(String[] args) {
+       try {
+          int arr[] = {1,2,3,4,5};
+          // Code that may throw an exception
+          System.out.println(arr[10]); // This statement will throw ArrayIndexOutOfBoundsException
+       } catch (ArrayIndexOutOfBoundsException e) {
+          // Code to handle ArrayIndexOutOfBoundsException
+          System.out.println("ArrayIndexOutOfBoundsException\n");
+       } finally {
+          // Code that is always executed
+          System.out.println("finally block");
+       } 
+   }
+}
+
+
