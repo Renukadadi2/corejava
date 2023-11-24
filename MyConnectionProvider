@@ -1,0 +1,19 @@
+package login.registration;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+public class MyConnectionProvider implements Myprovider {
+static Connection con =null;
+ public static Connection getCon() {
+	try {
+		Class.forName("com.sql.cj.jdbc.Driver");
+		Connection con=DriverManager.getConnection(connurl,"root","root");
+		
+	}catch(Exception e) {
+		System.out.println(e);
+	}
+	 return con;
+ }
+}
