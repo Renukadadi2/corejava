@@ -1,0 +1,7 @@
+package login.registration;
+
+public interface Myprovider {
+String username="postgres";
+String pwd="campus123";
+String connurl="jdbc:mysql//localhost:3306/renu";
+}
