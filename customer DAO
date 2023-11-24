@@ -1,0 +1,6 @@
+package login.registration;
+
+public interface CustomerDAO {
+	public int insertCustomer(Customers c);
+public Customers getCustomer(String username,String pass);
+}
