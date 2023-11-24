@@ -1,0 +1,21 @@
+package login.registration;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class CustomerDAOImpl implements CustomerDAO {
+static Connection con;
+static PreparedStatement ps;
+@Override
+public int insertCustomer(Customers c) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+@Override
+public Customers getCustomer(String username, String pass) {
+	// TODO Auto-generated method stub
+	return null;
+}
+}
+	
+	
